@@ -20,3 +20,7 @@ Add a new Network Link pointing to the Docker container.
 Known Issues
 --------
 Currently you must manually edit osmtiles2kml.pl to include the hostname of the Docker container, if it's not being accessed at localhost.
+
+Credits
+--------
+[Andrew Harvey](mailto:andrew.harvey4@gmail.com) for creating [osmtiles2kml.pl](https://gist.github.com/andrewharvey/1638955)
