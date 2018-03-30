@@ -2,17 +2,20 @@
 
 ### Make [Strava Global Heatmap](https://www.strava.com/heatmap) available as a KML Network Source in Google Earth.
 
+![Google Earth Screenshot](docs/google_earth.jpg)
+
 Build
 --------
 `docker build . -t heatmap`
 
 Run
 --------
-`docker run -it --rm -p 80:80 heatmap
+`docker run -it --rm -p 80:80 heatmap`
 
 Add to Google Earth
 --------
-Add a new Network Link point to the Docker machine
+Add a new Network Link pointing to the Docker container.
+![Add New Network Link](docs/add_network_link.png)
 
 Known Issues
 --------
